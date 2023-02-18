@@ -3,7 +3,8 @@
 </svelte:head>
 
 <script>
-  import Header from "./lib/Header.svelte";
+  import Footer from "./lib/Footer.svelte";
+import Header from "./lib/Header.svelte";
   import Mainpage from "./lib/Mainpage.svelte";
 
  
@@ -11,6 +12,7 @@
 <div>
   <Header/>
   <Mainpage />
+  <Footer />
 </div>
 
 
